@@ -1,4 +1,9 @@
 /* Hoja de estilos general */
 body {
   font-family: 'Signika' !important;
+  background-image: url("../lib/fondo-main.jpg");
+}
+
+.contenedor-principal {
+  margin-top: 20px;
 }

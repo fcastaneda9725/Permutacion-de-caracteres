@@ -1,51 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Permutación de Caracteres</title>
 
-      <!-- Hoja de Estilos Personalizada -->
-      <link rel="stylesheet" href="css/estilos.css">
-      <!-- Inclusión de bootstrap CDN -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <!-- Font importada de GoogleFonts -->
-      <link href="https://fonts.googleapis.com/css?family=Signika:400,700" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permutación de Caracteres</title>
 
-  </head>
+  <!-- Hoja de Estilos Personalizada -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <!-- Inclusión de bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Font importada de GoogleFonts -->
+  <link href="https://fonts.googleapis.com/css?family=Signika:400,700" rel="stylesheet">
 
-    <body>
+</head>
 
-      <!-- NavBar demo con texto dento -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">Dabarc</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+
+  <!-- NavBar demo con texto dento -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Dabarc</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Permutar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Prueba</a>
-                  </li>
-                </ul>
-                <span class="navbar-text">
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Permutar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Prueba</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
                   Prueba de permutación de caracteres.
                 </span>
-              </div>
-          </nav>
+    </div>
+  </nav>
 
-      <script src="js/app.js"></script>
-      <!-- Script de Bootstrap CDN -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Contenedor Principal -->
+  <div class="container contenedor-principal">
+      <!-- Card de descripción de la Landing Page -->
+      <div class="row justify-content-center">
+        <div class="card text-center">
+          <div class="card-header">
+            Permutación de Caracteres
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Prueba de Front-End</h5>
+            <p class="card-text">Landing Page en donde puedes introducir una cadena<br /> de caracteres para que se realicen permutaciónes de dicha cadena,<br  /> las cuales se mostraran a continuación.</p>
+            <a href="#" class="btn btn-primary">Vamos a probarlo.</a>
+          </div>
+          <div class="card-footer text-muted">
+            Francisco Castañeda
+          </div>
+        </div>
+      </div>
 
-    </body>
+        <!-- Input para la cadena de caracteres -->
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="">Introduce tu cadena</span>
+          </div>
+          <input type="text" class="form-control">
+        </div>
+  </div>
 
-  </html>
+  <script src="js/app.js"></script>
+  <!-- Script de Bootstrap CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
