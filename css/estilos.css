@@ -4,6 +4,6 @@ body {
   background-image: url("../lib/fondo-main.jpg");
 }
 
-.contenedor-principal {
+.contenedor-principal, .contenedor-app {
   margin-top: 20px;
 }
