@@ -53,7 +53,8 @@
           <div class="card-body">
             <h5 class="card-title">Prueba de Front-End</h5>
             <p class="card-text">Landing Page en donde puedes introducir una cadena<br /> de caracteres para que se realicen permutaciónes de dicha cadena,<br  /> las cuales se mostraran a continuación.</p>
-            <a href="#" class="btn btn-primary">Vamos a probarlo.</a>
+            <button type="button" class="btn btn-primary" title="Mostrar App" onclick="mostrarApp()" id="boton-mostrar">Vamos a Probarlo</button>
+            <!-- <input type="button" class="btn btn-primary" title="Mostrar App" onclick="mostrarApp()" id="boton-mostrar" value="Vamos a Probarlo"/> -->
           </div>
           <div class="card-footer text-muted">
             Francisco Castañeda
@@ -61,7 +62,7 @@
         </div>
       </div>
 
-      <div class="contenedor-app">
+      <div class="contenedor-app oculto" id="contenedor-app">
         <!-- Input para la cadena de caracteres -->
         <div class="input-group">
           <div class="input-group-prepend">
@@ -70,15 +71,13 @@
           <input type="text" class="form-control"  id="cadena">
         </div>
         <button type="button" class="btn btn-primary" title="Permutar" onclick="clickBtn()">Permutar</button>
-      </div>
 
-      <ul class="list-group">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-        <li class="list-group-item">Porta ac consectetur ac</li>
-        <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
+        <!-- Lista de PERMUTACIONES -->
+        <ul class="list-group" id="lista-dinamica">
+          <!-- Vacia Inicialmente -->
+        </ul>
+
+      </div>
 
   </div>
 
