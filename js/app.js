@@ -7,6 +7,8 @@ var lista = [];
 function mostrarApp() {
   var contenido = document.getElementById('contenedor-app');
   contenido.classList.toggle('oculto');
+
+  //Evaluación para cambiar el contenido del botón
   var boton = document.getElementById('boton-mostrar');
   if (boton.innerHTML == 'Vamos a Probarlo') {
     boton.innerHTML = 'Ocultar App';
@@ -17,6 +19,11 @@ function mostrarApp() {
 
 /* Código para las permutaciones */
 function clickBtn() {
+
+  //Abilita botón borrar
+  var botonBorrar = document.getElementById('boton-borrar');
+  botonBorrar.classList.remove('disabled');
+
   limpiar();
   var cadena = document.getElementById('cadena').value;
   permuta(' ', cadena);
@@ -39,10 +46,10 @@ function permuta(cad1, cad2) {
 function imprimir(cadena) {
   for (var i = 0; i < cadena.length; i++) {
     var grupo = document.getElementById('lista-dinamica');
-    var l = document.createElement('li');
-    l.appendChild(document.createTextNode(cadena[i]));
-    l.setAttribute('class', 'list-group-item');
-    grupo.appendChild(l);
+    var elementoLista = document.createElement('li');
+    elementoLista.appendChild(document.createTextNode(cadena[i]));
+    elementoLista.setAttribute('class', 'list-group-item');
+    grupo.appendChild(elementoLista);
   }
 }
 
@@ -50,4 +57,14 @@ function limpiar() {
   contador = 0;
   lista = [];
   return contador, lista;
+}
+
+function borrar() {
+  var lista = document.getElementById('lista-dinamica');
+  var elementos = document.getElementsByClassName('list-group-item');
+  var x = lista.children.length;
+  console.log(x);
+  for (var i = 0; i < x; i++) {
+    lista.removeChild(elementos[i]);
+  }
 }
