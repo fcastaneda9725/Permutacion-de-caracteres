@@ -1,8 +1,8 @@
-# Permutación de Caracteres en una Cadena
+# Permutación de Caracteres en una Cadena.
 
 Esta página te permite introducir una cadena de caracteres y ver cuantas veces se puede permutar ella misma sin repetirse, algunas palabras no tienen sentido pero puede ser útil para crear tu propio diccionario o evaluar que palabras si tienen sentido en una aplicación de procesamiento de lenguaje natural.
 
-## Intrucciones
+## Intrucciones.
 
 1. Accedes al Home.
 2. Dentro de la tarjeta de presentación hay un botón que dice "Vamos a probarlo", darle click.
@@ -13,7 +13,7 @@ Esta página te permite introducir una cadena de caracteres y ver cuantas veces 
       2. Puedes dar click en el botón "Borrar" para eliminar la lista y comenzar de nuevo.
 6. Para ocultar la sección de las permutaciones, puedes dar click en el botón de la tarjeta de presentación que dice "Ocultar App".
 
-### Pre-requisitos
+### Pre-requisitos.
 
 Contar con la instalación básica de un servidor que permita utilizar Javascript.
 
@@ -34,6 +34,10 @@ También puedes instalar XAMPP para simular un servidor en tu computadora.
 **SEO:** 20 minutos.
 
  **Tiempo Total: 11 horas y 20 minutos**
+
+###Limitaciones.
+
+Debido a el tiempo de procesamiento, esta prueba se encuentra limitada a iterar cadenas de caracteres hasta de 7 caracteres, en computadoras con ciertas especificaciones técnicas puede lograr iterar cadenas con 8 caracteres pero su rendimiento se ve bastante afectado.
 
 ## Desarrollado con:
 
