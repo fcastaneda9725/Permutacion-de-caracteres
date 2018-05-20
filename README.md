@@ -33,6 +33,8 @@ También puedes instalar XAMPP para simular un servidor en tu computadora.
 
 **SEO:** 20 minutos.
 
+ **Tiempo Total: 11 horas y 20 minutos**
+
 ## Desarrollado con:
 
 * [Bootstrap v4.1](https://getbootstrap.com/) - Bootstrap es el framework CSS Utilizado para este proyecto.
