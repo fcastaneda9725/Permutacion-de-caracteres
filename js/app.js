@@ -41,6 +41,7 @@ function permuta(cad1, cad2) {
     permuta(cad1 + cad2.charAt(i), cad2.replace(cad2.charAt(i), ''));
   }
 
+  document.getElementById('cadena').value = '';
 }
 
 function imprimir(cadena) {
