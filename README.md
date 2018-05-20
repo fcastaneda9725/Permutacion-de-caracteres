@@ -35,7 +35,7 @@ También puedes instalar XAMPP para simular un servidor en tu computadora.
 
  **Tiempo Total: 11 horas y 20 minutos**
 
-###Limitaciones.
+### Limitaciones.
 
 Debido a el tiempo de procesamiento, esta prueba se encuentra limitada a iterar cadenas de caracteres hasta de 7 caracteres, en computadoras con ciertas especificaciones técnicas puede lograr iterar cadenas con 8 caracteres pero su rendimiento se ve bastante afectado.
 
