@@ -62,9 +62,9 @@ function limpiar() {
 function borrar() {
   var lista = document.getElementById('lista-dinamica');
   var elementos = document.getElementsByClassName('list-group-item');
-  var x = lista.children.length;
+  var x = elementos.length;
   console.log(x);
   for (var i = 0; i < x; i++) {
-    lista.removeChild(elementos[i]);
+    lista.removeChild(elementos[0]);
   }
 }
