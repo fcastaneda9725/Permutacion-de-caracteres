@@ -19,6 +19,20 @@ Contar con la instalación básica de un servidor que permita utilizar Javascrip
 
 También puedes instalar XAMPP para simular un servidor en tu computadora.
 
+### Tiempo aproximado de desarrollo.
+
+**Diseño:** 3 horas.
+
+**Maquetación HTML:** 1 Hora.
+
+**Implementación de funcionalidad:** 4 horas.
+
+**Ajustes y corrección de errores:** 2 horas.
+
+**Documentación:** 1 hora.
+
+**SEO:** 20 minutos.
+
 ## Desarrollado con:
 
 * [Bootstrap v4.1](https://getbootstrap.com/) - Bootstrap es el framework CSS Utilizado para este proyecto.
