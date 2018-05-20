@@ -9,8 +9,8 @@ Esta página te permite introducir una cadena de caracteres y ver cuantas veces 
 3. Te despliega el lugar en donde podemos introducir la cadena de caracteres.
 4. Escribe tu cadena de caracteres en el espacio indicado.
 5. Da click en el botón "Permutar" para ver las permutaciones.
-  1. Puedes introducir una nueva cadena de caracteres y se mostrara la nueva lista debajo de la lista de la cadena anterior.
-  2. Puedes dar click en el botón "Borrar" para eliminar la lista y comenzar de nuevo.
+      1. Puedes introducir una nueva cadena de caracteres y se mostrara la nueva lista debajo de la lista de la cadena anterior.
+      2. Puedes dar click en el botón "Borrar" para eliminar la lista y comenzar de nuevo.
 6. Para ocultar la sección de las permutaciones, puedes dar click en el botón de la tarjeta de presentación que dice "Ocultar App".
 
 ### Pre-requisitos
