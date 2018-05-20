@@ -9,5 +9,9 @@ body {
 }
 
 .oculto {
-  display: none;
+  display: none !important;
+}
+
+.estiloBoton {
+  margin: 10px;
 }

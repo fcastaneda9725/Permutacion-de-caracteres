@@ -67,4 +67,8 @@ function borrar() {
   for (var i = 0; i < x; i++) {
     lista.removeChild(elementos[0]);
   }
+
+  //Desabilita botón borrar
+  var botonBorrar = document.getElementById('boton-borrar');
+  botonBorrar.classList.add('disabled');
 }

@@ -61,21 +61,26 @@
         </div>
       </div>
 
-      <div class="contenedor-app oculto" id="contenedor-app">
-        <!-- Input para la cadena de caracteres -->
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text">Introduce tu cadena</span>
-          </div>
-          <input type="text" class="form-control"  id="cadena">
-        </div>
-        <button type="button" class="btn btn-primary" title="Permutar" onclick="clickBtn()">Permutar</button>
-        <button type="button" class="btn btn-danger disabled" title="Borrar" onclick="borrar()" id="boton-borrar">Borrar</button>
+      <div class="contenedor-app oculto card" id="contenedor-app">
 
-        <!-- Lista de PERMUTACIONES -->
-        <ul class="list-group" id="lista-dinamica">
-          <!-- Vacia Inicialmente -->
-        </ul>
+        <div class="card-body">
+
+          <!-- Input para la cadena de caracteres -->
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Introduce tu cadena</span>
+            </div>
+            <input type="text" class="form-control"  id="cadena">
+          </div>
+          <button type="button" class="btn btn-primary estiloBoton" title="Permutar" onclick="clickBtn()">Permutar</button>
+          <button type="button" class="btn btn-danger disabled estiloBoton" title="Borrar" onclick="borrar()" id="boton-borrar">Borrar</button>
+
+          <!-- Lista de PERMUTACIONES -->
+          <ul class="list-group" id="lista-dinamica">
+            <!-- Vacia Inicialmente -->
+          </ul>
+          
+        </div>
 
       </div>
 
