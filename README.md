@@ -4,7 +4,7 @@ Esta página te permite introducir una cadena de caracteres y ver cuantas veces 
 
 ## Intrucciones.
 
-1. Accedes al Home.
+1. Accedes al [Home](http://18.217.19.223/Permutacion-de-caracteres/).
 2. Dentro de la tarjeta de presentación hay un botón que dice "Vamos a probarlo", darle click.
 3. Te despliega el lugar en donde podemos introducir la cadena de caracteres.
 4. Escribe tu cadena de caracteres en el espacio indicado.
